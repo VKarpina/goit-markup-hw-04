@@ -183,9 +183,6 @@ img {
 
 .hero.section {
   margin: 0 auto;
-}
-
-.hero-container {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -196,7 +193,10 @@ img {
   background-repeat: no-repeat;
   padding: 188px 0px;
   max-width: 1440px;
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.hero-container {
 }
 
 .hero-title {
@@ -310,6 +310,9 @@ img {
 .team-item-text {
 }
 
+.team-contacts-container {
+}
+
 .team-contacts-list {
   display: flex;
   gap: 24px;
@@ -335,7 +338,7 @@ img {
 }
 
 .icon-soc {
-  fill: white;
+  fill: #f4f4fd;
 }
 
 .team-contacts-link:hover,
@@ -425,6 +428,7 @@ img {
 
 .page-footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-container {
