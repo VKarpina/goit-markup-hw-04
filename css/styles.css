@@ -298,7 +298,7 @@ img {
 .team-img {
 }
 
-.team-subtitle-text {
+.team-info-container {
   padding: 32px 0;
   text-align: center;
 }
@@ -308,16 +308,12 @@ img {
 }
 
 .team-item-text {
-}
-
-.team-contacts-container {
+  margin-bottom: 8px;
 }
 
 .team-contacts-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 32px;
-  align-items: center;
   justify-content: center;
 }
 
@@ -380,6 +376,7 @@ img {
 
 .portfolio-overlay {
   cursor: pointer;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img {
